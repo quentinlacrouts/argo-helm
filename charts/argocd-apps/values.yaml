@@ -30,6 +30,8 @@ applications: []
 #   info:
 #   - name: url
 #     value: https://argoproj.github.io/
+#   sourceNamespaces:
+#   - '*'
 
 # -- Deploy Argo CD Projects within this helm release
 # @default -- `[]` (See [values.yaml])
